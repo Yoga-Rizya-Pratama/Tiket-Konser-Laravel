@@ -7,11 +7,6 @@ use App\Models\pemesanan as pemesan;
 
 class pemesanan extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
 
     public function index()
     {
