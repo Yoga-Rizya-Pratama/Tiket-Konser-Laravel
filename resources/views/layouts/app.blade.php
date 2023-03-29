@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="flex items-center justify-between">
                     <a class="text-pink-500 font-bold text-xl" href="{{ url('/') }}">
-                    Tiket Konser Blackpink
+                    Pemesanan Tiket Konser
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
