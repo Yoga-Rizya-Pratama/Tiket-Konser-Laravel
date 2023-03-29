@@ -33,8 +33,8 @@
             </tr>
         </thead>
         <tbody>
+               @foreach ($data as $pemesan)
             <tr>
-                @foreach ($data as $pemesan)
                     <td>{{$loop->iteration}}</td>
                     <td>{{$pemesan->tiket_id}}</td>
                     <td>{{$pemesan->nama_pemesan}}</td>
@@ -51,8 +51,8 @@
                         <a href="{{route('editPemesanan', $pemesan->id)}}" class="text-orange-300 font-bold text-md mr-3">Edit</a>
                         <a href="{{route('deleteData', $pemesan->id)}}" class="text-red-600 font-bold text-md">Hapus</a>
                     </td>
-                @endforeach
             </tr>
+              @endforeach
         </tbody>
        </table>
     @endif

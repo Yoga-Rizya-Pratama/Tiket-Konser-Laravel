@@ -22,6 +22,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+// Akses http://127.0.0.1:8000/admin untuk mengakses menu admin
 Route::get('/admin', [admin::class, 'index'])->name('admin');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
